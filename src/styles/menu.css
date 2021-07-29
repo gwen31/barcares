@@ -1,0 +1,23 @@
+.rs-navbar.rs-navbar-default{
+   background-color: #7C809B !important;
+}
+.rs-nav-item-content{
+    font-size: 1.2rem !important;
+}
+.rs-btn-default, .rs-btn-primary, .rs-btn-subtle{
+    color:rgb(19, 18, 18) !important;
+    font-size: 1.2rem !important;
+}
+.rs-dropdown-item-content{
+    font-size: 1.2rem !important;
+    color:rgb(19, 18, 18) !important;
+}
+.rs-dropdown-menu{
+    /*background-color: #d6dbfa !important;*/
+    border: none !important;
+    margin-left: 15px !important;
+   
+}
+.rs-nav-item > .rs-nav-item-content{
+    color:rgb(19, 18, 18) !important;
+}

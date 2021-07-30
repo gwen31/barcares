@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Navbar, Nav, Icon } from 'rsuite';
 import { Dropdown } from 'rsuite';
 import "../styles/menu.css";
@@ -9,25 +10,22 @@ const Menu = () => {
                 <Navbar.Body>
                     <Nav>
                         <Nav.Item icon={<Icon icon="home" />} >Acceuil</Nav.Item>
-                        <Nav.Item>Notre location</Nav.Item>
-                        <Nav.Item>Barcarès</Nav.Item>
+                        <Nav.Item><Link to="/appartement">Notre location</Link></Nav.Item>
+                        <Nav.Item><Link to="/barcares">Barcarès</Link></Nav.Item>
                         <Dropdown title="Autour de Barcarès">
-                            <Dropdown.Item>Port Leucate</Dropdown.Item>
-                            <Dropdown.Item>Gorge de Galamus</Dropdown.Item>
-                            <Dropdown.Item>Forca Real</Dropdown.Item>
-                            <Dropdown.Item>Périllos</Dropdown.Item>
-                            <Dropdown.Item>Salses le Château</Dropdown.Item>
-                            <Dropdown.Item>Tautavel</Dropdown.Item>
-                            <Dropdown.Item>Collioure</Dropdown.Item>
+                            <Dropdown.Item><Link to="/port-leucate">Port Leucate</Link></Dropdown.Item>
+                            <Dropdown.Item><Link to="/galamus">Gorge de Galamus</Link></Dropdown.Item>
+                            <Dropdown.Item><Link to="/forca-real">Forca Real</Link></Dropdown.Item>
+                            <Dropdown.Item><Link to="/perillos">Périllos</Link></Dropdown.Item>
+                            <Dropdown.Item><Link to="/salses">Salses le Château</Link></Dropdown.Item>
+                            <Dropdown.Item><Link to="/tautavel">Tautavel</Link></Dropdown.Item>
+                            <Dropdown.Item><Link to="/collioure">Collioure</Link></Dropdown.Item>
                         </Dropdown>
-                        <Dropdown title="Téléchargement">
-                            <Dropdown.Item>Bail</Dropdown.Item>
-                            <Dropdown.Item>Etat des lieux</Dropdown.Item>
-                        </Dropdown>
-                        <Nav.Item>Contact</Nav.Item>
+                        <Nav.Item><Link to="/telechargement">Téléchargements</Link></Nav.Item>
+                        <Nav.Item><Link to="/contact">Contact</Link></Nav.Item>
                     </Nav>
                     <Nav pullRight>
-                        <Nav.Item icon={<Icon icon="cog" />} >Settings</Nav.Item>
+                        <Nav.Item icon={<Icon icon="cog" />} ></Nav.Item>
                     </Nav>
                 </Navbar.Body>
             </Navbar>

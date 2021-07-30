@@ -7,7 +7,8 @@ const Header = () => {
             <div className="block-container">
                 <div className="header">
                     <img className="banniere" src="./assets/header-img.jpg" alt="image de la plage" />
-                    <p className="title">locationbarcares.fr</p>
+                    <h2 className="title">locationbarcares.fr</h2>
+                    <h3 className="describe">Appartement T2 cabine vue mer Wifi</h3>
                 </div>
             </div>
         </>

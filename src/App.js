@@ -1,6 +1,8 @@
 import { BrowserRouter } from 'react-router-dom';
 import { Switch, Route } from 'react-router-dom';
 import Home from "./pages/Home";
+import Header from "./pages/Header";
+import Menu from './pages/Menu';
 import Appartement from "./components/Appartement";
 import Barcares from "./components/Barcares";
 import PortLeucate from "./components/PortLeucate";
@@ -19,6 +21,8 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <Header />
+        <Menu />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/appartement" component={Appartement} />

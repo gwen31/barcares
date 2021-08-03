@@ -19,10 +19,11 @@
 }
 .title {
     width: 22ch;
+    font-size: 3rem;;
     position:absolute;
-    margin-left: -1000px;
-    margin-top: 160px;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    margin-left: -1050px;
+    margin-top: 130px;
+    animation: typing 6s steps(22), blink .6s step-end infinite alternate;
     overflow: hidden;
     font-weight: bold;
     color: black;
@@ -41,14 +42,14 @@
     position:absolute;
     width: 22ch;
     margin-left: -1000px;
-    margin-top: 340px;
+    margin-top: 320px;
     font-size: 2em;
     letter-spacing: 4px;
     overflow: hidden;
     background: linear-gradient(90deg, #000, rgb(24, 23, 23), #000);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 8s linear infinite;
+    animation: animate 10s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
   }

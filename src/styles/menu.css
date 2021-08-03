@@ -1,4 +1,6 @@
+@media (min-width: 835px) {
 .rs-navbar.rs-navbar-default{
+    font-size: 1.2rem !important;
    background-color: #7C809B !important;
 }
 .rs-nav-item-content{
@@ -12,16 +14,61 @@
     font-size: 1.2rem !important;
     color:rgb(19, 18, 18) !important;
 }
+.rs-dropdown .rs-dropdown-toggle{
+    font-size: 1.2rem !important;
+}
 .rs-dropdown-menu{
-    /*background-color: #d6dbfa !important;*/
+    font-size: 1.2rem !important;
     border: none !important;
     margin-left: 15px !important;
    
 }
 .rs-nav-item > .rs-nav-item-content{
+    font-size: 1.2rem !important;
     color:rgb(19, 18, 18) !important;
 }
 a{
     text-decoration:none;
     color: rgb(19, 18, 18) !important;
+}
+.navbar_burger{
+  display: none;
+}
+}
+.burger{
+    display: none;
+}
+@media (max-width: 835px) {
+    .desktop{
+        display: none;
+    }
+    .burger{
+        display: flex;
+       flex-wrap: wrap;
+       background-color: #7C809B !important;
+    }
+    .rs-nav-item-content{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .rs-sidenav .rs-sidenav-nav > ul {
+        display: flex;
+        flex-direction: column;
+    }
+    a{
+        font-size: 1.2rem !important;
+        text-decoration:none;
+        color: rgb(19, 18, 18) !important;
+    }
+    .hamburger-react{
+        color: rgb(19, 18, 18) !important;
+    }
+    .rs-sidenav-collapse-in {
+        background-color: #b0b4ce !important;
+        width: 75%;
+    }
+    ul{
+     margin: auto;
+    }
 }

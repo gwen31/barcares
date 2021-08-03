@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+.formulaire{
+    background-color: #e5e5e5;
+    padding: 40px;
+}
+.bloc-form{
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+.rs-btn-toolbar > :not(:first-child):not(.rs-btn-block) {
+    margin-left: 15px !important;
+}
+.rs-btn-default, .rs-btn-primary, .rs-btn-subtle {
+    color: rgb(19, 18, 18) !important;
+    font-size: 1rem !important;
+}
+.submit {
+    background-color: #adb3d6 !important;
+    box-shadow: 3px 3px 3px 3px #7C809B;
+}
+}
+
+      
+    
+        

@@ -14,6 +14,7 @@ import Tautavel from "./components/Tautavel";
 import Collioure from "./components/Collioure";
 import Telechargement from "./components/Telechargement";
 import Contact from "./components/Contact";
+import Footer from "./pages/footer";
 
 import './App.css';
 
@@ -37,6 +38,7 @@ function App() {
           <Route exact path="/telechargement" component={Telechargement} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
+        <Footer />
       </div>
     </BrowserRouter>
   );

@@ -10,9 +10,9 @@ h3{
     display:flex;
     justify-content: center;
     border: 0.5px solid black;
-   
+
     box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5); 
-    width:80%;
+    width: 60%;
     height: 700px;
     margin: auto;
     margin-top: 40px;
@@ -24,6 +24,9 @@ h3{
 }
 .rs-btn-toolbar > :not(:first-child):not(.rs-btn-block) {
     margin-left: 15px !important;
+}
+.rs-control-label{
+    color: rgb(5, 5, 5) !important;
 }
 .submit {
     background-color: #adb3d6 !important;
@@ -37,13 +40,13 @@ input{
     border: none;
     border-radius: 8px 8px 8px 8px;
     padding:10px;
-    width: 800px;
+    width: 800px !important;
 }
 
 textarea{
     border-radius: 8px 8px 8px 8px;
     padding:10px;
-    width: 800px;
+    width: 800px !important;
     border: none;
 }
 #not-mail{
@@ -87,18 +90,21 @@ textarea{
         justify-content: center;
         border: 0.5px solid black;
         box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5); 
-        width:100%;
+       
         height: 700px;
-        margin: auto;
+        margin-left: -20px;
         margin-top: 40px;
         padding: 10px;
     }
     .rs-form:not(.rs-form-inline) .rs-form-group:not(:last-child){
-        font-size: 1.2rem;
-        padding: 20px;
+        font-size: 1.2rem !important;
+        padding: 20px !important;
     }
     .rs-btn-toolbar > :not(:first-child):not(.rs-btn-block) {
         margin-left: 15px !important;
+    }
+    .rs-control-label{
+        color: rgb(5, 5, 5) !important;
     }
     .submit {
         background-color: #adb3d6 !important;
@@ -117,15 +123,14 @@ textarea{
     textarea{
         border-radius: 8px 8px 8px 8px;
         padding:10px;
-       width: 300px;
+        width: 300px;
         border: none;
     }
-   
     #not-mail{
         display: none;
         position: absolute;
-        margin-top: 10px;
-        margin-left: 620px;
+        margin-top: 50px;
+        margin-left: 10px;
         color: red;
         transform-origin: 50% 50%;
     }

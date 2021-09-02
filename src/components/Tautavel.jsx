@@ -51,7 +51,7 @@ const Tautavel = () => {
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Tautavel/ruines1.jpg" height="350" width="400" alt="" />
                      <Panel header="ON SE RAPPROCHE">
-                      <p>On se rapproche des ruines du château. Il ne reste pas grand chose mais le paysage est magnifique.</p>
+                      <p>On se rapproche des ruines du château. Se sont des ruines mais c'est magnifique.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
@@ -61,9 +61,9 @@ const Tautavel = () => {
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
-                    <img src="/assets/Tautavel/ville.jpg" height="350" width="400" alt="Ville de Tautavel"/>
-                      <Panel header="LA VILLE DE TAUTAVEL">
-                       <p>Une vue extraordinaire sur la ville de Tautavel avec une vue magnifique sur les Pyrénées Orientales</p>
+                    <img src="/assets/Tautavel/ville.jpg" height="350" width="400" alt="Village de Tautavel"/>
+                      <Panel header="LE VILLAGE DE TAUTAVEL">
+                       <p>Une vue extraordinaire sur la village de Tautavel et des Pyrénées Orientales</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
@@ -81,7 +81,7 @@ const Tautavel = () => {
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Tautavel/gorges.jpg" height="350" width="400" alt="Les gorges de Gouleyrous" />
                       <Panel header="LES GORGES DE GOULEYROUS">
-                       <p>Nous arrivons dans un lieu naturel et spendide,juste à coté de Tautavel, au gorges de Gouleyrous.</p>
+                       <p>Nous arrivons dans un lieu naturel et spendide à Gouleyrous, juste à coté de Tautavel.</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
@@ -93,13 +93,13 @@ const Tautavel = () => {
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Tautavel/gorges2.jpg" height="350" width="400" alt="Gorges de Gouleyrous" />
                       <Panel header="EN PLEINE NATURE">
-                       <p>Lieu exceptionnel, nous avons croisé des randonneurs et des personnes qui pratiquaient de l'escalade.</p>
+                       <p>Lieu exceptionnel, où des randonneurs et des personnes pratiquent de l'escalade.</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Tautavel/gorges3.jpg" height="350" width="400" alt="Les gorges de Gouleyrous" />
                       <Panel header="LES GORGES DE GOULEYROUS">
-                       <p>Ces gorges sont spectaculaires, avec l'eau transparente, les bacines créaient par l'eau dans la roche.</p>
+                       <p>Elles sont spectaculaires, avec l'eau transparente, les bacines créaient par l'eau dans la roche.</p>
                       </Panel>
                 </Panel>
             </div>

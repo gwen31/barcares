@@ -5,7 +5,7 @@ const Telechargement = () => {
     return (
         <div className={css(styles.container)}>
             <h2>Téléchargement</h2>
-            <p className={css(styles.p)}>Vous pouvez téléchargé <span>le bail de location </span>et <span>l'état des lieux ici</span></p>
+            <p>Vous pouvez téléchargé le bail de location et l'état des lieux ici</p>
             <div className={css(styles.subcontainer)}>
             <div className={css(styles.telechargment)}>
                 <h3>Bail de location</h3>  
@@ -46,10 +46,7 @@ const styles = StyleSheet.create({
             flexDirection: 'column',
         }
     },
-    p:{
-        marginTop: '30px',
-        fontSize: '30px'
-    },
+  
     subcontainer:{
         "@media (min-width: 600px)":{
         display: 'flex',
@@ -58,7 +55,7 @@ const styles = StyleSheet.create({
         width: '60%',
         margin: 'auto',
         marginTop: '60px',
-        border: '2px solid black',
+        border: '1px solid black',
         boxShadow: '8px 8px 10px 0 rgba(0,0,0,0.5)',
         },
         "@media (max-width: 768px)":{
@@ -68,7 +65,7 @@ const styles = StyleSheet.create({
             flexWrap: 'wrap',
             margin: 'auto',
             marginTop: '60px',
-            border: '2px solid black',
+            border: '1px solid black',
             boxShadow: '8px 8px 10px 0 rgba(0,0,0,0.5)'
         },
     },

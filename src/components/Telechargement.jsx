@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
         width: '100%',
         },
         "@media (max-width: 768px)":{
-            width: '90%',
+            width: '100%',
             display: 'flex',
             justifyContent: 'center',
             textAlign: 'center',

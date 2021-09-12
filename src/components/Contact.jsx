@@ -87,7 +87,7 @@ const Contact = () => {
                             value={email}
                         />
                     </FormGroup>
-                    <FormGroup>
+                    <FormGroup className="champ">
                         <ControlLabel>Message *</ControlLabel>
                         <textarea rows={5}
                             type="text"

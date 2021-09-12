@@ -100,6 +100,7 @@ const ForcaReal = () => {
 };
 
 const styles = StyleSheet.create({
+    "@media (min-width: 600px)":{
     container: {
         width:'78%',
         padding: "20px",
@@ -124,6 +125,7 @@ const styles = StyleSheet.create({
         marginRight: '60px',
         marginBottom:'60px',
         backgroundColor:'white' 
+    },
     },
 })
 

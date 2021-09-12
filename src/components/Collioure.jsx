@@ -100,6 +100,7 @@ const Collioure = () => {
 };
 
 const styles = StyleSheet.create({
+    "@media (min-width: 600px)":{
     container: {
         width:'78%',
         padding: "20px",
@@ -125,8 +126,6 @@ const styles = StyleSheet.create({
         marginBottom:'60px',
         backgroundColor:'white' 
     },
-    lienText:{
-        fontSize: '1rem',
-    }
+    },
 })
 export default Collioure;

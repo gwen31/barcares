@@ -30,7 +30,7 @@ const Menu = () => {
                                 <Dropdown title="Autour de Le Barcarès">
                                     <Dropdown.Item><Link to="/port-leucate">Port Leucate</Link></Dropdown.Item>
                                     <Dropdown.Item><Link to="/galamus">Gorge de Galamus</Link></Dropdown.Item>
-                                    <Dropdown.Item><Link to="/forca-real">Forca Real</Link></Dropdown.Item>
+                                    <Dropdown.Item><Link to="/forçareal">Forca Real</Link></Dropdown.Item>
                                     <Dropdown.Item><Link to="/perillos">Périllos</Link></Dropdown.Item>
                                     <Dropdown.Item><Link to="/salses">Salses le Château</Link></Dropdown.Item>
                                     <Dropdown.Item><Link to="/tautavel">Tautavel</Link></Dropdown.Item>

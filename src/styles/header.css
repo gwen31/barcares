@@ -73,6 +73,7 @@
   .banniere{
     position: relative;
     margin-left: 8px;
+    margin-right: 8px;
     margin-top: 45px;
     box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5); 
 }
@@ -81,14 +82,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.header img{
-  width: 100% !important;
-}
+
 .title {
   width: 22ch;
   font-size: 1.5rem;
   position:absolute;
-  margin-top: -150px;
+  margin-top: -130px;
   margin-left: 60px;
   text-align: center;
   animation: typing 6s steps(22), blink .6s step-end infinite alternate;

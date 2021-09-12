@@ -99,8 +99,8 @@ const Salses = () => {
 };
 
 const styles = StyleSheet.create({
-    "@media (min-width: 600px)":{
     container: {
+        "@media (min-width: 738px)":{
         width:'78%',
         padding: "20px",
         display: "flex",
@@ -108,8 +108,10 @@ const styles = StyleSheet.create({
         justifyContent: "space-between",
         alignItems: "center",
         flexDirection: "column",
+        },
     },
     containercard:{
+        "@media (min-width: 738px)":{
         width: "100%",
         display: "flex",
         justifyContent: "center",
@@ -117,14 +119,16 @@ const styles = StyleSheet.create({
         flexWrap: "wrap",
         margin: "auto",
         padding: "20px",
+        },
     },
     card:{
+        "@media (min-width: 738px)":{
         boxShadow: '8px 8px 10px 0 rgba(0,0,0,0.5)',
         width: "400px",
         marginRight: '60px',
         marginBottom:'60px',
         backgroundColor:'white' 
-    },
+         },
     },
 })
 

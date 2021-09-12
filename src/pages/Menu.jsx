@@ -26,8 +26,8 @@ const Menu = () => {
                             <Nav>
                                 <Nav.Item className="nav_link"><Link to="/">Acceuil</Link></Nav.Item>
                                 <Nav.Item className="nav_link"><Link to="/appartement">Notre location</Link></Nav.Item>
-                                <Nav.Item className="nav_link"><Link to="/barcares">Barcarès</Link></Nav.Item>
-                                <Dropdown title="Autour de Barcarès">
+                                <Nav.Item className="nav_link"><Link to="/barcares">Le Barcarès</Link></Nav.Item>
+                                <Dropdown title="Autour de Le Barcarès">
                                     <Dropdown.Item><Link to="/port-leucate">Port Leucate</Link></Dropdown.Item>
                                     <Dropdown.Item><Link to="/galamus">Gorge de Galamus</Link></Dropdown.Item>
                                     <Dropdown.Item><Link to="/forca-real">Forca Real</Link></Dropdown.Item>
@@ -45,11 +45,11 @@ const Menu = () => {
                         <Nav>
                             <Nav.Item className="nav_link"><Link to="/">Acceuil</Link></Nav.Item>
                             <Nav.Item className="nav_link"><Link to="/appartement">Notre location</Link></Nav.Item>
-                            <Nav.Item className="nav_link"><Link to="/barcares">Barcarès</Link></Nav.Item>
-                            <Dropdown title="Autour de Barcarès">
+                            <Nav.Item className="nav_link"><Link to="/barcares">Le Barcarès</Link></Nav.Item>
+                            <Dropdown title="Autour de Le Barcarès">
                                 <Dropdown.Item><Link to="/port-leucate">Port Leucate</Link></Dropdown.Item>
                                 <Dropdown.Item><Link to="/galamus">Gorge de Galamus</Link></Dropdown.Item>
-                                <Dropdown.Item><Link to="/forca-real">Forca Real</Link></Dropdown.Item>
+                                <Dropdown.Item><Link to="/forçareal">Forca Real</Link></Dropdown.Item>
                                 <Dropdown.Item><Link to="/perillos">Périllos</Link></Dropdown.Item>
                                 <Dropdown.Item><Link to="/salses">Salses le Château</Link></Dropdown.Item>
                                 <Dropdown.Item><Link to="/tautavel">Tautavel</Link></Dropdown.Item>

@@ -8,15 +8,16 @@ const Tautavel = () => {
     return (
         <div className= {css(styles.container)}>
             <h1>Tautavel</h1>
+            <h4>(visite du 26 avril 2019)</h4>
                 <div>
                   <PanelGroup className={css(styles.paragraphed)}>
                     <Panel header="LE VILLAGE DE TAUTAVEL">
-                        <p>Nous sommes allé découvrir lr village de Tautavel dans les Pyrénée Orientales, de 878 habitants
+                        <p>Nous sommes allés découvrir le village de Tautavel dans les Pyrénées Orientales, de 878 habitants
                         à 40 minutes de <Link to="/barcares">Le Barcarès</Link>. Cette commune fait partie de la route des vins.</p>
                         <p>Vous y trouverez le musée de préhistoire qui vous fera voyager dans le passé avec 700 000 ans de présence humaine.
                         Des parcours de randonnée pour y découvrir des lieux comme le château de Tautavel en ruines, la Torre del far
                         mais également des grottes accessibles à pied.</p>
-                         <p>Si vous voulais y aller cliquer ici  <a href="https://goo.gl/maps/YvimRfSibur35emZ9">
+                         <p>Si vous voulez y aller cliquer ici  <a href="https://goo.gl/maps/YvimRfSibur35emZ9">
                             <img src="/assets/mapcarte.png" height="30" width="30" alt="lien google map"></img> </a></p>  
                     </Panel>
                     <Panel header="LES GORGES DE GOULEYROUS" >
@@ -24,7 +25,7 @@ const Tautavel = () => {
                         <p>Une rivière sauvage (le Verdouble) qui a taillé la roche des falaises de la Dévèze entre Tautavel et Vingrau. Ces gorges sont
                             spectaculaires, invitent à l'escalade ou à la contemplation, avec une plage propice au pique nique.</p>
                         <p>Par contre, le parking au milieu des vignes est payant, 5 euros pour les voitures et motos, et 8 euros pour les camping car pour la journée.</p>
-                        <p>Si vous voulais y aller cliquer ici  <a href="https://goo.gl/maps/66KgrrJ8wjBJFha47">
+                        <p>Si vous voulez y aller cliquer ici  <a href="https://goo.gl/maps/66KgrrJ8wjBJFha47">
                             <img src="/assets/mapcarte.png" height="30" width="30" alt="lien google map"></img> </a></p>
                     </Panel>
                     </PanelGroup>

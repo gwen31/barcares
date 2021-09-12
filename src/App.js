@@ -30,7 +30,7 @@ function App() {
           <Route exact path="/barcares" component={Barcares} />
           <Route exact path="/port-leucate" component={PortLeucate} />
           <Route exact path="/galamus" component={Galamus} />
-          <Route exact path="/Força-real" component={ForcaReal} />
+          <Route exact path="/Forçareal" component={ForcaReal} />
           <Route exact path="/perillos" component={Perillos} />
           <Route exact path="/salses" component={Salses} />
           <Route exact path="/tautavel" component={Tautavel} />

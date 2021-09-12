@@ -15,7 +15,7 @@
     color:rgb(19, 18, 18) !important;
 }
 .rs-dropdown .rs-dropdown-toggle{
-    font-size: 1.2rem !important;
+    font-size: 1.5rem !important;
 }
 .rs-dropdown-menu{
     font-size: 1.2rem !important;
@@ -30,6 +30,7 @@
 a{
     text-decoration:none;
     color: rgb(19, 18, 18) !important;
+    font-size: 1.5rem !important;
 }
 .navbar_burger{
   display: none;
@@ -38,6 +39,7 @@ a{
 .burger{
     display: none;
 }
+
 @media (max-width: 835px) {
     .desktop{
         display: none;
@@ -61,7 +63,6 @@ a{
         visibility: visible;
     }
     a{
-       
         text-decoration:none;
         color: rgb(19, 18, 18) !important;
     }

@@ -9,3 +9,7 @@ const Galamus = () => {
 };
 
 export default Galamus;
+
+
+
+

@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import { Panel } from 'rsuite';
 
 import { StyleSheet, css } from 'aphrodite';
@@ -10,9 +9,10 @@ const Salses = () => {
             <h1>Salses le Château</h1>
             <h4>(visite du 8 mars 2019)</h4>
                 <div>
-                    <Panel header="La Forteresse de Salses le Château">
-                        <p>Commune des Pyrénée Orientales, Salses le Château possède une forteresse construite par les espagnols en 1502
-                            pour protéger la frontières. Proche de <Link to="/barcares">Le Barcarès</Link>, une visite qui peut être faite
+                    <Panel header="LA FORTERESSE DE SALSES LE CHÂTEAU">
+                        <p>Commune des <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Pyr%C3%A9n%C3%A9es-Orientales">Pyrénées Orientales</a>, 
+                        <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Salses-le-Ch%C3%A2teau"> Salses le Château</a> possède une forteresse construite par les espagnols en 1502
+                            pour protéger la frontières. Proche de Le Barcarès, une visite qui peut être faite
                              de temps couvert ou venteux.</p>
                         <p>Une visite du fort qui se fait en partie en visite guidée que nous trouvons trop rapide et qui ne permet pas de voit
                             tout le potentiel de la forteresse. Le rez de chaussée se fait seul pour visiter les différentes salles.</p>
@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         flexWrap: "wrap",
-        margin: "auto",
+        marginLeft: "70px",
         padding: "20px",
         },
     },
@@ -130,6 +130,11 @@ const styles = StyleSheet.create({
         backgroundColor:'white' 
          },
     },
+    lienText:{
+        "@media (min-width: 738px)":{
+        fontSize: "1rem"
+    }
+}
 })
 
 export default Salses;

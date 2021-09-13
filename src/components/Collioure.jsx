@@ -1,5 +1,5 @@
 import React from 'react';
-import { Panel } from 'rsuite';
+import { Panel, PanelGroup } from 'rsuite';
 
 import { StyleSheet, css } from 'aphrodite';
 
@@ -9,17 +9,29 @@ const Collioure = () => {
             <h1>Collioure</h1>
             <h4>(visite du 29 mai 2019)</h4>
                 <div>
-                    <Panel header="Collioure">
-                        <p>Commune Française au bord de la méditérannée, <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Collioure">Collioure </a>
+                  <PanelGroup className={css(styles.paragraphed)}>
+                    <Panel header="CHÂTEAU ET CHAPELLE">
+                    <p>Commune Française au bord de la méditérannée, <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Collioure">Collioure </a>
                          est l'une des villes des <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Pyr%C3%A9n%C3%A9es-Orientales">Pyrénées Orientales </a>
                         les plus touristique. En effet elle possède de nombreux monuments historiques sur son territoire mais aussi
                             des plages de galets ainsi que plusieurs chemins de randonnées. Collioure est à environ 45 min de Le Barcarès.</p>
                         <p>La ville est constituée du <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_royal_de_Collioure">château royale </a> qui existait déjà depuis 673 et qui par la suite, abrita les <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Royaume_d%27Aragon">rois d'Aragon </a> 
                         puis <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Royaume_de_Majorque">rois de Majorque</a>.</p>
                         <p>La chapelle Saint Vincent de Collioure fur construite en 1642 et servait d'ermitage. D'ailleurs sur les anciennes cartes c'était une île qui de nos jours est reliée par une digue.</p>
-                         <p>Si vous voulez y aller cliquer ici  <a href="https://goo.gl/maps/rW98wKVR6Y1ajgQp9">
-                            <img src="/assets/mapcarte.png" height="30" width="30" alt="lien google map"></img> </a></p>  
+                        <p>Construite en 1684, Le cloché de <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/%C3%89glise_Notre-Dame-des-Anges_de_Collioure">Notre Dame des Anges</a> a remplacé le phare médiéval.</p>
+                            
                     </Panel>
+                    <Panel header="LES FORTS" >
+                        <p>Le <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Fort_Saint-Elme_(France)">Fort St Elme </a>construit en 1538 domine Collioure et Port Vendres. D'autres part, il abrite un musée sur les armes médiévales
+                            mais aussi de la rennaissance.</p>
+                        <p>Lors de notre visite, nous avons admirer le Fort Miradou construit en 1679 à la place de la Tour Musart. Cependant les visites sont impossible car il abrite un centre d'entrainnement des commandos.</p>
+                        <p>Le Fort carré et la Tour de l'étoile (fort rond) sont un ensemble défensif suplémentaire rajouté pour consolidé le Fort Miradou.</p>
+                        <p>Egalement sur le chemin de randonnée, vous pourrez aussi découvrir des bunkers de la seconde guerre mondiale. Finalement Collioure montre sont intérêts stratégique tout au long des siècles qui se sont écoulés.</p>
+                        <p>En conclusion, un lieu exceptionnel qu'il vous faut visiter si vous aimez les vielles pierres, les plages et les magnifiques panoramas.</p>
+                        <p>Si vous voulez y aller cliquer ici  <a href="https://goo.gl/maps/rW98wKVR6Y1ajgQp9">
+                            <img src="/assets/mapcarte.png" height="30" width="30" alt="lien google map"></img> </a></p> 
+                    </Panel>
+                    </PanelGroup>
                 </div>
             <div className={css(styles.containercard)}>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
@@ -118,7 +130,7 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         flexWrap: "wrap",
-        margin: "auto",
+        marginLeft: "70px",
         padding: "20px",
         },
     },
@@ -131,5 +143,10 @@ const styles = StyleSheet.create({
         backgroundColor:'white' 
          },
     },
+    lienText:{
+        "@media (min-width: 738px)":{
+        fontSize: "1rem"
+    }
+}
 })
 export default Collioure;

@@ -9,11 +9,12 @@ const ForcaReal = () => {
             <h1>Força Réal</h1>
             <h4>(visite du 28 avril 2019)</h4>
                 <div>
-                    <Panel header="Força Réal">
-                        <p>Força Réal est sur le sommet d'un piton rocheux, à 507m d'altitude. Près de Millas, il constitue 
+                    <Panel header="FORCA REAL">
+                        <p><a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/For%C3%A7a_R%C3%A9al">Força Réal</a> est sur le sommet d'un piton rocheux, à 507m d'altitude. Près de Millas, il constitue 
                             un formifables belvédère sur le Roussillon, avec un superbe panorama à 360° sur la région.</p>
-                        <p>L'antenne relais domine la plaine du Roussillon. Elle est placée à 500 mètres d'altitude. Tandis que l'ermitage,
-                             lui est construit sur les ruines de la forteresse royale des rois d'Aragon et de Majorque. Il semblerait que c'est 
+                        <p>L'antenne relais domine la <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Plaine_du_Roussillon">plaine du Roussillon</a>. Elle est placée à 500 mètres d'altitude. Tandis que l'ermitage,
+                             lui est construit sur les ruines de la forteresse royale des <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Liste_des_souverains_d%27Aragon">rois d'Aragon</a> et de 
+                             <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Liste_des_rois_de_Majorque"> Majorque</a>. Il semblerait que c'est 
                              en 1963 que le château fut détruit et remplacé par l'ermitage.</p>
                         <p>Nous profitons également d'un somptueux panorama sur le Mont Canigou qui culmine à 2 784 mètres d'altitude. Célèbre sommet
                              chez les Catalans, il abrite l'abaye de Saint Martin du Canigou, mais aussi ce lieu héberge de nombreux sentiers de randonnées.</p>
@@ -118,7 +119,7 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         flexWrap: "wrap",
-        margin: "auto",
+        marginLeft: "70px",
         padding: "20px",
         },
     },
@@ -131,6 +132,11 @@ const styles = StyleSheet.create({
         backgroundColor:'white' 
          },
     },
+    lienText:{
+        "@media (min-width: 738px)":{
+        fontSize: "1rem"
+    }
+}
 })
 
 export default ForcaReal;

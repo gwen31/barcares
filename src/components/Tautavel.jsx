@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import { PanelGroup, Panel } from 'rsuite';
 
 import { StyleSheet, css } from 'aphrodite';
@@ -12,17 +11,18 @@ const Tautavel = () => {
                 <div>
                   <PanelGroup className={css(styles.paragraphed)}>
                     <Panel header="LE VILLAGE DE TAUTAVEL">
-                        <p>Nous sommes allés découvrir le village de Tautavel dans les Pyrénées Orientales, de 878 habitants
-                        à 40 minutes de <Link to="/barcares">Le Barcarès</Link>. Cette commune fait partie de la route des vins.</p>
-                        <p>Vous y trouverez le musée de préhistoire qui vous fera voyager dans le passé avec 700 000 ans de présence humaine.
-                        Des parcours de randonnée pour y découvrir des lieux comme le château de Tautavel en ruines, la Torre del far
+                        <p>Nous sommes allés découvrir le village de <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Tautavel">Tautavel</a> dans les 
+                        <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Pyr%C3%A9n%C3%A9es-Orientales"> Pyrénées Orientales</a>, de 878 habitants
+                        à 40 minutes de Le Barcarès. Cette commune fait partie de la route des vins.</p>
+                        <p>Vous y trouverez le <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Tautavel_-_Centre_europ%C3%A9en_de_pr%C3%A9histoire">musée de préhistoire</a> qui vous fera voyager dans le passé avec 700 000 ans de présence humaine.
+                        Des parcours de randonnée pour y découvrir des lieux comme le <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Tautavel">château de Tautavel</a> en ruines, la <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Tour_del_Far">Torre del far </a>
                         mais également des grottes accessibles à pied.</p>
                          <p>Si vous voulez y aller cliquer ici  <a href="https://goo.gl/maps/YvimRfSibur35emZ9">
                             <img src="/assets/mapcarte.png" height="30" width="30" alt="lien google map"></img> </a></p>  
                     </Panel>
                     <Panel header="LES GORGES DE GOULEYROUS" >
-                        <p>Nous avons trouvé également un lieu magnifique naturel : Les gorges de Gouleyrous, fait partie de la commune de Tautavel.</p>
-                        <p>Une rivière sauvage (le Verdouble) qui a taillé la roche des falaises de la Dévèze entre Tautavel et Vingrau. Ces gorges sont
+                        <p>Nous avons trouvé également un lieu magnifique naturel : Les <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Gorges_du_Verdouble">gorges de Gouleyrous</a>, fait partie de la commune de Tautavel.</p>
+                        <p>Une rivière sauvage,le <a className={css(styles.lienText)} href="https://fr.wikipedia.org/wiki/Verdouble">Verdouble </a>qui a taillé la roche des falaises de la Dévèze entre Tautavel et Vingrau. Ces gorges sont
                             spectaculaires, invitent à l'escalade ou à la contemplation, avec une plage propice au pique nique.</p>
                         <p>Par contre, le parking au milieu des vignes est payant, 5 euros pour les voitures et motos, et 8 euros pour les camping car pour la journée.</p>
                         <p>Si vous voulez y aller cliquer ici  <a href="https://goo.gl/maps/66KgrrJ8wjBJFha47">
@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         flexWrap: "wrap",
-        margin: "auto",
+        marginLeft: "70px",
         padding: "20px",
         },
     },
@@ -140,6 +140,11 @@ const styles = StyleSheet.create({
         backgroundColor:'white' 
          },
     },
+    lienText:{
+        "@media (min-width: 738px)":{
+        fontSize: "1rem"
+    }
+}
 })
 
 export default Tautavel;

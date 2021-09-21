@@ -6,7 +6,7 @@ import Menu from './pages/Menu';
 import Appartement from "./components/Appartement";
 import Barcares from "./components/Barcares";
 import PortLeucate from "./components/PortLeucate";
-import Galamus from "./components/Galamus";
+import Eus from './components/Eus';
 import ForcaReal from "./components/ForcaReal";
 import Perillos from "./components/Perillos";
 import Salses from "./components/Salses";
@@ -29,7 +29,7 @@ function App() {
           <Route exact path="/appartement" component={Appartement} />
           <Route exact path="/barcares" component={Barcares} />
           <Route exact path="/port-leucate" component={PortLeucate} />
-          <Route exact path="/galamus" component={Galamus} />
+          <Route exact path="/eus" component={Eus} />
           <Route exact path="/Forçareal" component={ForcaReal} />
           <Route exact path="/perillos" component={Perillos} />
           <Route exact path="/salses" component={Salses} />

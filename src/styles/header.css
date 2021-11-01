@@ -12,19 +12,23 @@
     box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5); 
 }
 .diapo{
-    position: relative;
-    margin-top: 45px;
-    margin-bottom: 40px;
-    box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5); 
+  position: relative;
+  margin-top: 45px;
+  margin-bottom: 40px;
+  box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5); 
+  width: 90%;
 }
 .header{
   display:flex;
   justify-content: space-around;
 }
 .header img{
-  width: 30% !important;
+  width: 50% !important;
   height:400px !important;
-  
+}
+.diapo img{
+  width: 70% !important;
+  height:400px !important;
 }
 .title {
     width: 22ch;
@@ -71,6 +75,79 @@
     }
   }
 }
+.contener_slideshow
+{
+  width:800px;
+  
+  overflow: hidden;
+  position: relative;
+  
+}
+.slid_1, .slid_2, .slid_3
+{
+  position: absolute;
+  width:800px;
+  height:211px;
+}
+.slid_1{left: 0px;}
+.slid_2{left: 800px;}
+.slid_3{left: 1620px;}
+.diapo
+{
+  width: 1220px;
+  height: 211px;
+  left:0px;
+  position: absolute;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: anim_slide;
+  -moz-animation-duration: 15s;
+  -moz-animation-iteration-count:infinite;
+  -moz-animation-name: anim_slide;
+  -ms-animation-duration: 10s;
+  -ms-animation-iteration-count:infinite;
+  -ms-animation-name: anim_slide;
+  animation-duration: 15s;
+  animation-iteration-count:infinite;
+  animation-name: anim_slide;
+}
+@-webkit-keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-810px;}
+  45% {left:-810px;}
+  66% {left:-1620px;}
+  90% {left:-1620px;}
+}
+@-moz-keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-810px;}
+  45% {left:-810px;}
+  66% {left: -1620px;}
+  90% {left:-1620px;}
+}
+@-ms-keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-810px;}
+  45% {left:-810px;}
+  66% {left:-1620px;}
+  90% {left:-1620px;}
+}
+@keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-810px;}
+  45% {left:-810px;}
+  66% {left:-1620px;}
+  90% {left:-1620px;}
+}
+
 @media (max-width: 735px) {
   .block-container{
     margin-top: 20px;
@@ -84,6 +161,9 @@
     margin-right: 8px;
     margin-top: 45px;
     box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5); 
+}
+.diapo{
+  display: none;
 }
 .header{
   display:flex;

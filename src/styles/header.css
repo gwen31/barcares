@@ -29,6 +29,7 @@
 .diapo img{
   width: 70% !important;
   height:400px !important;
+  box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5); 
 }
 .title {
     width: 22ch;

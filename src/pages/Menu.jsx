@@ -28,7 +28,7 @@ const Menu = () => {
                                 <Nav.Item className="nav_link"><Link to="/appartement">Notre location</Link></Nav.Item>
                                 <Nav.Item className="nav_link"><Link to="/barcares">Le Barcarès</Link></Nav.Item>
                                 <Dropdown title="Autour de Le Barcarès">
-                                    <Dropdown.Item><Link to="/port-leucate">Port Leucate</Link></Dropdown.Item>
+                                    <Dropdown.Item><Link to="/port-leucate">Leucate</Link></Dropdown.Item>
                                     <Dropdown.Item><Link to="/eus">Eus</Link></Dropdown.Item>
                                     <Dropdown.Item><Link to="/forçareal">Forca Real</Link></Dropdown.Item>
                                     <Dropdown.Item><Link to="/perillos">Périllos</Link></Dropdown.Item>
@@ -47,7 +47,7 @@ const Menu = () => {
                             <Nav.Item className="nav_link"><Link to="/appartement">Notre location</Link></Nav.Item>
                             <Nav.Item className="nav_link"><Link to="/barcares">Le Barcarès</Link></Nav.Item>
                             <Dropdown title="Autour de Le Barcarès">
-                                <Dropdown.Item><Link to="/port-leucate">Port Leucate</Link></Dropdown.Item>
+                                <Dropdown.Item><Link to="/port-leucate">Leucate</Link></Dropdown.Item>
                                 <Dropdown.Item><Link to="/eus">Eus</Link></Dropdown.Item>
                                 <Dropdown.Item><Link to="/forçareal">Forca Real</Link></Dropdown.Item>
                                 <Dropdown.Item><Link to="/perillos">Périllos</Link></Dropdown.Item>

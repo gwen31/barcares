@@ -45,7 +45,7 @@ const Tautavel = () => {
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Tautavel/ruines.jpg" height="350" width="400" alt="Des ruines du château"/>
-                     <Panel className={css(styles.titlecard)} header="LES RUINES">
+                     <Panel header="LES RUINES">
                       <p>Nous nous rapprochons des ruines du château de Tautavel.</p>
                      </Panel>
                 </Panel>

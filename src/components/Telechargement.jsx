@@ -5,7 +5,7 @@ const Telechargement = () => {
     return (
         <div className={css(styles.container)}>
             <h2>Téléchargement</h2>
-            <p>Vous pouvez téléchargé le bail de location et l'état des lieux ici</p>
+            <p>Vous pouvez téléchargé le bail de location et l'état des lieux</p>
             <div className={css(styles.subcontainer)}>
                 <div className={css(styles.telechargment)}>
                     <h3>Bail de location</h3>  
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
             flexDirection: 'column',
         }
     },
-  
+
     subcontainer:{
         "@media (min-width: 600px)":{
         display: 'flex',

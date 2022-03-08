@@ -65,7 +65,7 @@ const Contact = () => {
                 <Form fluid>
                     <FormGroup>
                         <ControlLabel>Nom *</ControlLabel>
-                        <input
+                        <input className="input-form"
                             type="text"
                             id="name"
                             name="name"
@@ -78,7 +78,7 @@ const Contact = () => {
                     <FormGroup>
                         <ControlLabel>Email *</ControlLabel>
                         <label id="not-mail">Email non valide</label>
-                        <input
+                        <input className="input-form"
                             type="email"
                             id="email"
                             name="email"
@@ -89,7 +89,8 @@ const Contact = () => {
                     </FormGroup>
                     <FormGroup className="champ">
                         <ControlLabel>Message *</ControlLabel>
-                        <textarea rows={5}
+                        <textarea className="textarea-form"
+                            rows={5}
                             type="text"
                             id="message"
                             name="textarea"

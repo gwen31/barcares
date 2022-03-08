@@ -145,7 +145,7 @@ const styles = StyleSheet.create({
     },
     lienText:{
         "@media (min-width: 738px)":{
-        fontSize: "1rem"
+        fontSize: "1.3rem"
     }
 }
 })

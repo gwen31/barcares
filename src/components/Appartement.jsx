@@ -94,26 +94,38 @@ const Appartement = () => {
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Appartement/alentour7.jpg" height="350" width="400" alt="Restaurants et glaciers"/>
-                     <Panel header="Restaurants, glaciers (coté plage)"></Panel>
+                     <Panel header="Equipements sportif sur l'allée des Arts"></Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Appartement/alentour8.jpg" height="350" width="400" alt="Place du Tertre" />
-                     <Panel header="Place du Tertre (plusieurs commerces)"></Panel>
+                     <Panel header="Plusieurs sortes d'équipements"></Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Appartement/alentour9.jpg" height="350" width="400" alt="Restaurants" />
-                      <Panel header="Restaurants, pizzeria (coté place du Tertre)"></Panel>
+                      <Panel header="Pour les grands et les petits"></Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Appartement/alentour10.jpg" height="350" width="400" alt="Parking de la résidence" />
-                      <Panel header="Le parking fermé de la Résidence"></Panel>
+                      <Panel header="Restaurants, glaciers (coté plage)"></Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Appartement/alentour11.jpg" height="350" width="400" alt="Le parking" />
-                      <Panel header="L'entrée du parking"></Panel>
+                      <Panel header="Place du Tertre (plusieurs commerces)"></Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Appartement/alentour12.jpg" height="350" width="400" alt="Terrain de pétanque" />
+                      <Panel header="Restaurants, pizzeria (coté place du Tertre)"></Panel>
+                </Panel>
+                <Panel className={css(styles.card)} shaded bordered bodyFill>
+                     <img src="/assets/Appartement/alentour13.jpg" height="350" width="400" alt="Parking de la résidence" />
+                      <Panel header="Le parking fermé de la Résidence"></Panel>
+                </Panel>
+                <Panel className={css(styles.card)} shaded bordered bodyFill>
+                     <img src="/assets/Appartement/alentour14.jpg" height="350" width="400" alt="Le parking" />
+                      <Panel header="L'entrée du parking"></Panel>
+                </Panel>
+                <Panel className={css(styles.card)} shaded bordered bodyFill>
+                     <img src="/assets/Appartement/alentour15.jpg" height="350" width="400" alt="Terrain de pétanque" />
                       <Panel header="Terrain de pétanque (à coté du parking)"></Panel>
                 </Panel>
                 </div>
@@ -155,7 +167,7 @@ card:{
 },
 lienText:{
     "@media (min-width: 738px)":{
-    fontSize: "1rem"
+    fontSize: "1.3rem"
 }
 }
 })

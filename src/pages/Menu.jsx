@@ -24,7 +24,7 @@ const Menu = () => {
                         <Hamburger className="burger" toggled={isOpen} toggle={toggleMenu} />
                         <Sidenav style={isOpen ? { display: 'flex' } : { display: 'none' }}>
                             <Nav>
-                                <Nav.Item className="nav_link"><Link to="/">Acceuil</Link></Nav.Item>
+                                <Nav.Item className="nav_link"><Link to="/">Accueil</Link></Nav.Item>
                                 <Nav.Item className="nav_link"><Link to="/appartement">Notre location</Link></Nav.Item>
                                 <Nav.Item className="nav_link"><Link to="/barcares">Le Barcarès</Link></Nav.Item>
                                 <Dropdown title="Autour de Le Barcarès">
@@ -43,7 +43,7 @@ const Menu = () => {
                     </div>
                     <div className="desktop">
                         <Nav>
-                            <Nav.Item className="nav_link"><Link to="/">Acceuil</Link></Nav.Item>
+                            <Nav.Item className="nav_link"><Link to="/">Accueil</Link></Nav.Item>
                             <Nav.Item className="nav_link"><Link to="/appartement">Notre location</Link></Nav.Item>
                             <Nav.Item className="nav_link"><Link to="/barcares">Le Barcarès</Link></Nav.Item>
                             <Dropdown title="Autour de Le Barcarès">

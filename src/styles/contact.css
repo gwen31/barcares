@@ -1,3 +1,4 @@
+/*DESKTOP*/
 @media (min-width: 735px) {
 .formulaire{
     background-color: #e5e5e5;
@@ -6,12 +7,10 @@
 h3{
     text-align: center;
 }
-
 .bloc-form{
     display:flex;
     justify-content: center;
     border: 0.5px solid black;
-
     box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5); 
     width: 60%;
     height: 700px;
@@ -21,33 +20,34 @@ h3{
 }
 .rs-form:not(.rs-form-inline) .rs-form-group:not(:last-child){
     font-size: 1.2rem;
+    width: 800px !important;
     padding: 20px;
 }
 .rs-btn-toolbar > :not(:first-child):not(.rs-btn-block) {
     margin-left: 15px !important;
+   
 }
 .rs-control-label{
     color: rgb(5, 5, 5) !important;
 }
 .submit {
     background-color: #adb3d6 !important;
-    box-shadow: 3px 3px 3px 3px #7C809B; 
+    box-shadow: 3px 3px 3px 3px #7C809B;   
 }
  .btns{
-        text-align: center;
+        text-align: center;  
     }
 }
-input{
+.input-form{
     border: none;
     border-radius: 8px 8px 8px 8px;
     padding:10px;
-    width: 800px !important;
+    width: 100% !important;
 }
-
-textarea{
+.textarea-form{
     border-radius: 8px 8px 8px 8px;
     padding:10px;
-    width: 800px !important;
+    width: 100% !important;
     border: none;
 }
 #not-mail{

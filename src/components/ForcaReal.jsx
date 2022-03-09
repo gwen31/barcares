@@ -25,73 +25,73 @@ const ForcaReal = () => {
             <div className={css(styles.containercard)}>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/ForcaReal/força1.jpg" height="350" width="400" alt="Paysage du Roussillon" />
-                     <Panel header="PAYSAGE DU ROUSSILLON">
+                     <Panel>
                         <p>Arrivée au parking, nous avons un panora magnifique sur le Roussillon.</p>
                      </Panel>
                 </Panel>
                 <Panel  className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/ForcaReal/força2.jpg" height="350" width="400" alt="Paysage du Roussillon"/>
-                     <Panel header ="AUTRE VUE DU PARKING">
+                     <Panel>
                         <p>Impréssionnant paysage, on en prend plein les yeux.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/ForcaReal/força3.jpg" height="350" width="400" alt="L'ermitage"/>
-                     <Panel header="L'ERMITAGE">
-                      <p>Après un petit de marche, nous arrivons à l'Ermitage.</p>
+                     <Panel>
+                      <p>Après un petit peu de marche, nous arrivons à l'Ermitage.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/ForcaReal/força4.jpg" height="350" width="400" alt="Autre vue de l'ermitage" />
-                     <Panel header="AUTRE VUE DE L'ERMITAGE">
+                     <Panel>
                       <p>Batîsse magnifique, avec tous autour un panorama extraordinaire.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/ForcaReal/força5.jpg" height="350" width="400" alt="Antenne relais de Força Réal" />
-                     <Panel header="ANTENNE RELAIS">
+                     <Panel>
                       <p>Nous partons de l'autre coté pour se rapprocher de l'antenne relais.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/ForcaReal/força6.jpg" height="350" width="400" alt="Vue de l'ermitage"/>
-                      <Panel header="L'ERMITAGE ET LE PAYSAGE">
-                       <p>Voici une photo de l'ermitage dans un cadre magnifique (vue de l'antenne relais).</p>
+                      <Panel>
+                       <p>Photo de l'ermitage dans un cadre magnifique (vue de l'antenne relais).</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/ForcaReal/força7.jpg" height="350" width="400" alt="Le mont Canigou"/>
-                     <Panel header="LE MONT CANIGOU">
+                     <Panel>
                       <p>Vue sur les pyrénées avec le Mont Canigou (vue de l'antenne relais).</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/ForcaReal/força8.jpg" height="350" width="400" alt="Paysage" />
-                     <Panel header="COTE MEDITERRANEE">
+                     <Panel>
                       <p>Autre paysage avec en arrière plan la méditérranée.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/ForcaReal/força9.jpg" height="350" width="400" alt="Vue de haut des remparts" />
-                      <Panel header="LES REMPARTS">
-                       <p>Un parc d'héolienne avec au loin la mer méditéranée avec Le Barcarès et Leucate.</p>
+                      <Panel>
+                       <p>Un parc d'héolienne avec au loin la mer méditéranée.</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/ForcaReal/força11.jpg" height="350" width="400" alt="Paysage du Rousillon" />
-                      <Panel header="PANORAMA SUR LA VALLEE DU ROUSILLON">
-                        <p>Extraordinaire paysage sur la vallée du Rousillon, spot super pouer les photographes.</p>
+                      <Panel>
+                        <p>Extraordinaire paysage sur la vallée du Rousillon.</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/ForcaReal/força10.jpg" height="350" width="400" alt="Paysage du Rousillon" />
-                      <Panel header="PETIT ZOOM">
+                      <Panel>
                        <p>J'ai zoomé un peu pour admirer ce payage magnifique.</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/ForcaReal/força12.jpg" height="350" width="400" alt="Le mont Canigou" />
-                      <Panel header="LE CANIGOU">
+                      <Panel>
                        <p>Pour finir, une autre photo du Mont Canigou avec un peu de neige.</p>
                       </Panel>
                 </Panel>
@@ -110,6 +110,7 @@ const styles = StyleSheet.create({
         justifyContent: "space-between",
         alignItems: "center",
         flexDirection: "column",
+        marginTop:"40px"
         },
     },
     containercard:{

@@ -36,74 +36,74 @@ const Collioure = () => {
             <div className={css(styles.containercard)}>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Collioure/collioure1.jpg" height="350" width="400" alt="Château et église de Collioure" />
-                     <Panel header="EGLISE ET LE CHÂTEAU DE COLLIOURE">
-                        <p>Petite vue sur le château royale, la mer et l'église Notre Dame des Anges.</p>
+                     <Panel>
+                        <p>Vue sur le château royale, la mer et l'église Notre Dame des Anges.</p>
                      </Panel>
                 </Panel>
                 <Panel  className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Collioure/collioure2.jpg" height="350" width="400" alt="Collioure"/>
-                     <Panel header ="VILLE MAGNIFIQUE">
-                        <p>Vue de Collioure en arrière plan et de la mer avec quelques rochers et bateaux.</p>
+                     <Panel>
+                        <p>Vue sur la ville et de la mer avec quelques rochers et bateaux.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Collioure/collioure3.jpg" height="350" width="400" alt="Collioure"/>
-                     <Panel header="AUTRE PARTIE">
-                      <p>Coin magnifique où nous pouvons y trouver des restaurants avec des terrasses vue sur la mer.</p>
+                     <Panel>
+                      <p>Coin magnifique avec des restaurants avec des terrasses vue sur la mer.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Collioure/collioure4.jpg" height="350" width="400" alt="Le château royale de Collioure" />
-                    <Panel header="LES REMPARTS DU CHÂTEAU ROYALE">
+                    <Panel>
                       <p>Petit passage obligatoire du coté du château royale de Collioure.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Collioure/collioure5.jpg" height="350" width="400" alt="château royale" />
-                     <Panel header="AUTRE VUE DU CHÂTEAU">
+                     <Panel>
                       <p>Nous continuons notre petit tour autour de ce château Impréssionnant.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Collioure/collioure6.jpg" height="350" width="400" alt="Chapelle St Vincent"/>
-                      <Panel header="CHAPELLE ST VINCENT">
-                       <p>Nous avons une plagette et nous pouvons accéder à la petite chapelle St Vincent.</p>
+                      <Panel>
+                       <p>Il y a une plagette et on peut accéder à la petite chapelle St Vincent.</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Collioure/collioure7.jpg" height="350" width="400" alt="La plage de collioure"/>
-                     <Panel header="LA PLAGE PRINCIPALE">
-                      <p>Plage située au centre de Collioure et en arrière plan nous apercevons le fort St Elmes.</p>
+                     <Panel>
+                      <p>Plage située au centre et en arrière plan nous apercevons le fort St Elmes.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Collioure/collioure8.jpg" height="350" width="400" alt="Le fort st Elmes" />
-                     <Panel header="LE FORT ST ELMES">
-                      <p>Un zoom sur le fort St Elmes, nous n'y sommes pas allés mais on y retournera</p>
+                     <Panel>
+                      <p>Un zoom sur le fort St Elmes, on y retournera car on ne l'a pas visité.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Collioure/collioure9.jpg" height="350" width="400" alt="Le port de Collioure" />
-                      <Panel header="LE PORT DE COLLIOURE">
+                      <Panel>
                        <p>Voici le port de Collioure qui est également proche du centre .</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Collioure/collioure10.jpg" height="350" width="400" alt="Le fort Miradou" />
-                      <Panel header="LE FORT MIRADOU">
-                        <p>Photo sur le fort Miradou en premier plan et sur la ville de Collioure.</p>
+                      <Panel>
+                        <p>Photo sur le Fort Miradou en premier plan et sur la ville de Collioure.</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Collioure/collioure11.jpg" height="350" width="400" alt="Le fort carré de Collioure" />
-                      <Panel header="LE FORT CARRE">
-                       <p>Le fort carré est entouré d'un profond fossé creusé dans la roche.</p>
+                      <Panel>
+                       <p>Le Fort Carré est entouré d'un profond fossé creusé dans la roche.</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Collioure/collioure12.jpg" height="350" width="400" alt="La tour de l'étoile" />
-                      <Panel header="LA TOUR DE L'ETOILE">
-                       <p>Au pied de la tour de l'Étoile sont disposés deux remparts en équerre.</p>
+                      <Panel>
+                       <p>Au pied de la Tour de l'Étoile sont disposés deux remparts en équerre.</p>
                       </Panel>
                 </Panel>
             </div>
@@ -121,6 +121,7 @@ const styles = StyleSheet.create({
         justifyContent: "space-between",
         alignItems: "center",
         flexDirection: "column",
+        marginTop: "40px"
         },
     },
     containercard:{

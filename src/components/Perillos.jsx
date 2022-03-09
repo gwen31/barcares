@@ -23,74 +23,74 @@ const Perillos = () => {
             <div className={css(styles.containercard)}>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Perillos/perillos1.jpg" height="350" width="400" alt="Ruines du château"/>
-                     <Panel header="CHÂTEAU DE PERILLOS">
+                     <Panel>
                         <p>En partant à l'aventure, nous sommes tombés sur des ruines d'un château.</p>
                      </Panel>
                 </Panel>
                 <Panel  className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Perillos/perillos2.jpg" height="350" width="400" alt="Ruines du château de Perillos"/>
-                     <Panel header ="RUINES DU CHÂTEAU">
-                        <p>Après avoir garé le camion au parking, nous sommes montés pour découvrir ces ruines.</p>
+                     <Panel>
+                        <p>Nous avons garé le camion au parking, on monte admirer ces ruines.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Perillos/perillos3.jpg" height="350" width="400" alt="Les remparts du château"/>
-                     <Panel header="LES REMPARTS">
-                      <p>Spectacle extraordinaire, avec ce qu'il reste des remparts avec un payage magnifique.</p>
+                     <Panel>
+                      <p>Spectacle extraordinaire, avec ce qu'il reste des remparts.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Perillos/perillos4.jpg" height="350" width="400" alt="Une tour du château de Perillos"/>
-                     <Panel header="LES RUINES D'UNE TOUR">
-                      <p>Au fur et à mesure que nous avançons, nous continuons de découvrir des ruines.</p>
+                     <Panel>
+                      <p>On avance et on continu de découvrir des ruines.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Perillos/perillos5.jpg" height="350" width="400" alt="Ruines du château" />
-                     <Panel header="LES RUINES ET LA NATURE">
+                     <Panel>
                       <p>Les pierres et la nature, que demander de plus c'est magnifique.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Perillos/perillos6.jpg" height="350" width="400" alt="Des ruines"/>
-                      <Panel header="IMPRESSIONNANTE RUINE">
+                      <Panel>
                        <p>Toujours au château, on peut voir les ruines d'une pièce.</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Perillos/perillos7.jpg" height="350" width="400" alt="Les ruines du château de Perillos"/>
-                     <Panel header="UNE AUTRE PIECE CHÂTEAU">
-                      <p>Une autre vue sur les ruines, nous pouvons voir les restes d'une entrée ou d'une fenêtre.</p>
+                     <Panel>
+                      <p>Autre vue sur les ruines, nous pouvons voir les restes d'une fenêtre.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Perillos/perillos8.jpg" height="350" width="400" alt="Vue sur le paysage"/>
-                     <Panel header="ON SE RAPPROCHE DU BORD">
-                      <p>Vue panoramique splendide sur la mer et l'étang de Port Leucate et de Le Barcarès.</p>
+                     <Panel>
+                      <p>Vue sur la mer et l'étang de Port Leucate et de Le Barcarès.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Perillos/perillos9.jpg" height="350" width="400" alt="Zoom sur la mer" />
-                      <Panel header="ZOOM SUR PORT BARCARES">
+                      <Panel>
                        <p>Zoom sur Port Barcarès, nous pouvons apercevoir le Lydia à droite.</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Perillos/perillos10.jpg" height="350" width="400" alt="Village abandonné" />
-                      <Panel header="LE VILLAGE DE PERILLOS">
-                        <p>Nous avons repris le camion et direction le village sur une route étroite.</p>
+                      <Panel>
+                        <p>Nous avons repris le camion et direction le village (route étroite).</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Perillos/perillos11.jpg" height="350" width="400" alt="Ruine d'une voûte" />
-                      <Panel header="RUINE D'UNE VOÛTE">
-                       <p>Peut être l'entrée du village avant, mais c'est magnifique.</p>
+                      <Panel>
+                       <p>Ruines d'une voute, peut être que c'était l'entrée du village .</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Perillos/perillos12.jpg" height="350" width="400" alt="L'église de Perillos" />
-                      <Panel header="L'EGLISE DU VILLAGE">
-                       <p>L'église de ce village perdu en pleine nature mais à découvrir avec plein de chemin de randonnée.</p>
+                      <Panel>
+                       <p>L'église de ce village à découvrir avec plein de chemin de randonnée.</p>
                       </Panel>
                 </Panel>
             </div>
@@ -108,6 +108,7 @@ const styles = StyleSheet.create({
         justifyContent: "space-between",
         alignItems: "center",
         flexDirection: "column",
+        marginTop: "40px"
         },
     },
     containercard:{

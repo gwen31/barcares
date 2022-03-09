@@ -23,73 +23,73 @@ const Eus = () => {
             <div className={css(styles.containercard)}>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Eus/eus1.jpg" height="350" width="400" alt="le village" />
-                     <Panel header="LE VILLAGE D'EUS">
+                     <Panel>
                         <p>Vu sur le magnifique village d'Eus situé tout en haut d'une colline.</p>
                      </Panel>
                 </Panel>
                 <Panel  className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Eus/eus2.jpg" height="350" width="400" alt="Le mont canigou"/>
-                     <Panel header ="LE MONT CANIGOU">
+                     <Panel>
                         <p>Magnifique vu sur le Mont Canigou, le village est situé face à ce mont.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Eus/eus3.jpg" height="350" width="400" alt="L'entrée du village"/>
-                     <Panel header="L'ENTREE DU VILLAGE">
+                     <Panel>
                       <p>C'est l'entrée, nous nous sommes garé sur un petit parking.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Eus/eus4.jpg" height="350" width="400" alt="Maison du village" />
-                     <Panel header="MAISON EN PIERRES">
+                     <Panel>
                       <p>Lorsque on arrive, nous découvons de belle bâtisse en pierres.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Eus/eus5.jpg" height="350" width="400" alt="Ruines du château" />
-                     <Panel header="L'EGLISE SAINT-VINCENT-D'EN-HAUT">
-                      <p>Nous commençons à voir l'impressionnante Eglise Saint-Vincent d'Eus.</p>
+                     <Panel>
+                      <p>Nous commençons à voir l'Eglise Saint-Vincent d'Eus.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Eus/eus6.jpg" height="350" width="400" alt="ruelle du village"/>
-                      <Panel header="RUELLE DU VILLAGE">
+                      <Panel>
                        <p>Vu d'une petite ruelle de galet et des maisons en pierres.</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Eus/eus7.jpg" height="350" width="400" alt="ruines"/>
-                     <Panel header="RUINES">
-                      <p>Au fur et à mesure que nous avançons, nous découvrons les ruines d'une bâtisse.</p>
+                     <Panel>
+                      <p>On avance et on découvre les ruines d'une bâtisse.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Eus/eus8.jpg" height="350" width="400" alt="ruines" />
-                     <Panel header="RUINES DU CHÂTEAU">
-                      <p>Nous arrivons en haut du village et nous y découvrons les reste du château.</p>
+                     <Panel>
+                      <p>En haut du village, nous y découvrons les restes du château.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Eus/eus9.jpg" height="350" width="400" alt="une place du village" />
-                      <Panel header="ESPACE DETENTE">
+                      <Panel>
                        <p>Magnifique endroit agréable, il y a même un olivier.</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Eus/eus10.jpg" height="350" width="400" alt="place autour de l'Eglise"/>
-                      <Panel header="AUTOUR DE L'EGLISE">
+                      <Panel>
                         <p>Nous sommes arrivés à l'Eglise Saint-Vincent-d'En-Haut.</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Eus/eus11.jpg" height="350" width="400" alt="chemin de rendonnée" />
-                      <Panel header="CHEMIN DE RANDONNEE">
-                       <p>Derrière l'Eglise, chemin de randonnée qui même au village abandonnée de Cômes.</p>
+                      <Panel>
+                       <p>A l'Eglise, un chemin qui même au village abandonnée de Cômes.</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Eus/eus12.jpg" height="350" width="400" alt="Le village" />
-                      <Panel header="EUS">
+                      <Panel>
                        <p>Dernière petite vue sur ce impressionnant village.</p>
                       </Panel>
                 </Panel>
@@ -108,6 +108,7 @@ const styles = StyleSheet.create({
         justifyContent: "space-between",
         alignItems: "center",
         flexDirection: "column",
+        marginTop: "40px"
         },
     },
     containercard:{

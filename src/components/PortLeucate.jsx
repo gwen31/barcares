@@ -325,6 +325,7 @@ const styles = StyleSheet.create({
         justifyContent: "space-between",
         alignItems: "center",
         flexDirection: "column",
+        marginTop: "40px",
         },
     },
     containercard:{

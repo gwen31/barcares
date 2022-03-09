@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         textAlign: 'center',
         margin: 'auto',
-        marginTop: '10px',
+        marginTop: '40px',
         padding: '40px',
         flexDirection: 'column',
         width: '100%',

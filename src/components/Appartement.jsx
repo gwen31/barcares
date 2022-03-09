@@ -64,6 +64,7 @@ const Appartement = () => {
                     <p>La résidence possède un parking privé et fermé par une barrière avec un grand nombre de places non attitrées. Ceci permet de ce garer où l'on veut.</p>
                     <p>Elle est situé également non loin (100 m) du paquebot "Le Lydia" qui est visitable, il y a aussi des animations. Pour aller au Lydia, on longe l'Allée des Arts,
                         au bord de la mer. On y trouve une collection de sculptures contemporaines exposée tout au long de l'allée.</p>
+                    <p>La résidence est très près de la limite avec Port Leucate, en conséquence on est à coté de la fête foraine (ouverte que l'été), d'aqualand, du cinéma, du casino de Leucate mais aussi d'un Mcdonald's.</p>
                 </Panel>
                
             </div>
@@ -128,6 +129,18 @@ const Appartement = () => {
                      <img src="/assets/Appartement/alentour15.jpg" height="350" width="400" alt="Terrain de pétanque" />
                       <Panel header="Terrain de pétanque (à coté du parking)"></Panel>
                 </Panel>
+                <Panel className={css(styles.card)} shaded bordered bodyFill>
+                     <img src="/assets/Appartement/alentour16.jpg" height="350" width="400" alt="Terrain de pétanque" />
+                      <Panel header="Le Casino (coté Port Leucate)"></Panel>
+                </Panel>
+                <Panel className={css(styles.card)} shaded bordered bodyFill>
+                     <img src="/assets/Appartement/alentour17.jpg" height="350" width="400" alt="Terrain de pétanque" />
+                      <Panel header="Le Cinéma (coté Port Leucate)"></Panel>
+                </Panel>
+                <Panel className={css(styles.card)} shaded bordered bodyFill>
+                     <img src="/assets/Appartement/alentour18.jpg" height="350" width="400" alt="Terrain de pétanque" />
+                      <Panel header="Un Mcdonald's (coté Port Leucate)"></Panel>
+                </Panel>
                 </div>
     </div>
 );
@@ -143,6 +156,7 @@ container: {
     justifyContent: "space-between",
     alignItems: "center",
     flexDirection: "column",
+    marginTop: "40px",
     },
 },
 containercard:{

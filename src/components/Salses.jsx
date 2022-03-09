@@ -23,74 +23,74 @@ const Salses = () => {
             <div className={css(styles.containercard)}>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Salses/salse1.jpg" height="350" width="400" alt="Salses le château" />
-                     <Panel header="SALSES LE CHÂTEAU">
-                        <p>Nous avons découvert proche de Barcarès la forteresse de Salses le Château.</p>
+                     <Panel>
+                        <p>Proche de Barcarès la forteresse de Salses le Château.</p>
                      </Panel>
                 </Panel>
                 <Panel  className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Salses/salse2.jpg" height="350" width="400" alt="Salses le château"/>
-                     <Panel header ="LA FORTERESSE">
-                        <p>C'est une impressionante forteresse a visiter, accéssible pour toute la famille.</p>
+                     <Panel>
+                        <p>Impressionante forteresse a visiter, accéssible pour toute la famille.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Salses/salse3.jpg" height="350" width="400" alt="L'entrée de la forteresse"/>
-                     <Panel className={css(styles.titlecard)} header="ON SE RAPPROCHE">
+                     <Panel>
                       <p>Nous nous rapprochons de l'entrée de la Forteresse.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Salses/salse4.jpg" height="350" width="400" alt="L'entrée de la Forteresse" />
-                     <Panel header="L'ENTREE DE LA FORTERESSE">
+                     <Panel>
                       <p>Extraordinaire entrée, de brique rouque et des moulures magnifique.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Salses/salse5.jpg" height="350" width="400" alt="Une tours de la forteresse" />
-                     <Panel header="VUE SUR UNE TOUR">
+                     <Panel>
                       <p>Sur cette photo, on peut voir une tour et un bout des remparts.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Salses/salse6.jpg" height="350" width="400" alt="Les remparts de Salses le château"/>
-                      <Panel header="LE REMPARTS">
-                       <p>Photo prise de l'entrée, montrant les impressionants remparts de Salses le Château.</p>
+                      <Panel>
+                       <p>Photo prise de l'entrée, montrant les impressionants remparts.</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Salses/salse7.jpg" height="350" width="400" alt="Remparts et une tour"/>
-                     <Panel header="REMPARTS ET UNE TOUR">
+                     <Panel>
                       <p>Le coté gauche des remparts avec une tour, toujours à l'entrée.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                     <img src="/assets/Salses/salse8.jpg" height="350" width="400" alt="Plan de la forteresse" />
-                     <Panel header="PLAN DE LA FORTERESSE">
-                      <p>Voici une petite photo d'un plan de la forteresse, afin que vous puissiez avoir un petit aperçu.</p>
+                     <Panel>
+                      <p>Photo d'un plan de la forteresse, pour avoir un petit aperçu.</p>
                      </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Salses/salse9.jpg" height="350" width="400" alt="Vue de haut des remparts" />
-                      <Panel header="LES REMPARTS">
-                       <p>Nous sommes montés plus haut pour encore plus découvrir cette forteresse .</p>
+                      <Panel>
+                       <p>Nous montons plus haut plus découvrir cette forteresse .</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Salses/salse10.jpg" height="350" width="400" alt="Vue sur l'entrée de la forteresse" />
-                      <Panel header="AUTRE VUE DE LA FORTERESSE">
+                      <Panel>
                         <p>Magnifique vue sur les pierres de la forteresse, vue sur l'entrée.</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Salses/salse11.jpg" height="350" width="400" alt="La Cour de la forteresse" />
-                      <Panel header="LA COUR INTERIEUR">
-                       <p>Nous arrivons sur la place d'arme impressionnante et il y a des salles à visiter.</p>
+                      <Panel>
+                       <p>Nous arrivons sur la place d'arme et il y a des salles à visiter.</p>
                       </Panel>
                 </Panel>
                 <Panel className={css(styles.card)} shaded bordered bodyFill>
                      <img src="/assets/Salses/salse12.jpg" height="350" width="400" alt="Salses le château" />
-                      <Panel header="LA FORTERESSE DE SALSES LE CHÂTEAU">
-                       <p>Dernière photo de cette impressionante forteresse des Pyérénées Orientales.</p>
+                      <Panel>
+                       <p>Dernière photo de cette forteresse des Pyérénées Orientales.</p>
                       </Panel>
                 </Panel>
             </div>
@@ -108,6 +108,7 @@ const styles = StyleSheet.create({
         justifyContent: "space-between",
         alignItems: "center",
         flexDirection: "column",
+        marginTop: "40px"
         },
     },
     containercard:{
